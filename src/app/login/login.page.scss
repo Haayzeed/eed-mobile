@@ -1,0 +1,92 @@
+.main{
+    --background: #20AC7A;
+    overflow: hidden !important;
+  }
+
+  .bubble{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: -45px;
+    top: -45px;
+  }
+  .small-bubble{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    right: 55px;
+    top: 40px;
+  }
+  .left-bubble{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: -45px;
+    bottom: -50px;
+  }
+  .left-small-bubble{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 55px;
+    bottom: 40px;
+  }
+  .logo-holder{
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+     h3{
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    //   font-size: 16px;
+    //   margin-bottom: 40% !important;
+    }
+  .img-wrapper{
+    width: 150px; 
+    height: 150px;
+    background: #fff !important;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30%;
+    img{
+      transform: scale(0.9,0.9);
+      margin: 0 auto; 
+      display: block;
+    }
+  }
+  .top-btn{
+    margin-top: 10%;;
+  }
+  ion-input{
+    border: 2px solid #fff !important;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  ion-button{
+    --border-radius: 0 !important;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    }
+    .yellow-btn{
+      --background: #FFC89A;
+  
+    }
+  }
+  

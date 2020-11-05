@@ -1,0 +1,24 @@
+.main{
+    // --background: ; 
+  }
+  .bubble{
+    width: 100%;
+    background: #20AC7A;
+  }
+  
+  .logo-holder{
+    margin-top: 50px;
+    position: absolute;
+    top: 3%;
+    img{
+        transform: scale(0.8,0.8);
+    }
+     h3{
+      font-weight: bold;
+      font-size: 16px;
+    }
+    p{
+        text-align: justify;
+    }
+  }
+   

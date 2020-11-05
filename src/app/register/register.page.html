@@ -1,0 +1,23 @@
+
+<ion-content [fullscreen]="true" class="main">
+  <div class="bubble"></div>
+  <div class="small-bubble"></div>
+  <ion-grid>
+  <ion-row class="logo-holder">
+    <ion-col size="10" offset="1">
+      <div class="img-wrapper">
+      <img src="assets/logo.png" alt=""> 
+    </div>
+    <!-- <h3>Register          </h3> -->
+    <ion-input type="text" placeholder="Enter Full Name"></ion-input>
+    <ion-input type="password" placeholder="Enter Password"></ion-input>
+    <ion-input type="email" placeholder="Enter Email Address"></ion-input>
+    <ion-input type="text" placeholder="Enter Phone"></ion-input>
+    <ion-router-link href="/login" class="top-btn"><ion-button color="light" expand="block">  Register</ion-button></ion-router-link>
+    <p style="color: #fff; font-size: 14px; text-align: center">Already have an account?<ion-router-link href="/login" class="btn" style="color: #FFC89A; font-weight: bold;"> Login</ion-router-link></p>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<div class="left-bubble"></div>
+<div class="left-small-bubble"></div>
+</ion-content>
